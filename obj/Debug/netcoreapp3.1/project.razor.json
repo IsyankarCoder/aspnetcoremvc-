@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\VsProject\\test-mvc-app\\test-mvc-app.csproj",
+  "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\test-mvc-app.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20521,53 +20521,63 @@
   "RootNamespace": "test_mvc_app",
   "Documents": [
     {
-      "FilePath": "d:\\VsProject\\test-mvc-app\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\VsProject\\test-mvc-app\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\VsProject\\test-mvc-app\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\VsProject\\test-mvc-app\\Views\\Shared\\NotFound.cshtml",
-      "TargetPath": "Views\\Shared\\NotFound.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\VsProject\\test-mvc-app\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\VsProject\\test-mvc-app\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\VsProject\\test-mvc-app\\Views\\Shared\\EmployeeNotFound.cshtml",
-      "TargetPath": "Views\\Shared\\EmployeeNotFound.cshtml",
+      "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\Home\\SecurePage.cshtml",
+      "TargetPath": "Views\\Home\\SecurePage.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\VsProject\\test-mvc-app\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\VsProject\\test-mvc-app\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\VsProject\\test-mvc-app\\Views\\Account\\Register.cshtml",
+      "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\Account\\Login.cshtml",
+      "TargetPath": "Views\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\Shared\\EmployeeNotFound.cshtml",
+      "TargetPath": "Views\\Shared\\EmployeeNotFound.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\Account\\Register.cshtml",
       "TargetPath": "Views\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\Shared\\NotFound.cshtml",
+      "TargetPath": "Views\\Shared\\NotFound.cshtml",
       "FileKind": "mvc"
     }
   ],

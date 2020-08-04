@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using test_mvc_app.Models;
 
 namespace test_mvc_app.Controllers
 {
+      [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -23,12 +25,20 @@ namespace test_mvc_app.Controllers
             return View();
         }
 
+       
         public IActionResult Privacy()
         {
             throw new Exception("hata var dostum");
             Response.StatusCode=404;
             if(Response.StatusCode == 404)
              return View("EmployeeNotFound",404);
+            return View();
+        }
+
+      
+      [AllowAnonymous]
+        public IActionResult SecurePage()
+        {
             return View();
         }
 

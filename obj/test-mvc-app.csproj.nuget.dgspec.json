@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VsProject\\test-mvc-app\\test-mvc-app.csproj": {}
+    "C:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\test-mvc-app.csproj": {}
   },
   "projects": {
-    "D:\\VsProject\\test-mvc-app\\test-mvc-app.csproj": {
+    "C:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\test-mvc-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VsProject\\test-mvc-app\\test-mvc-app.csproj",
+        "projectUniqueName": "C:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\test-mvc-app.csproj",
         "projectName": "test-mvc-app",
-        "projectPath": "D:\\VsProject\\test-mvc-app\\test-mvc-app.csproj",
-        "packagesPath": "C:\\Users\\GulPak\\.nuget\\packages\\",
-        "outputPath": "D:\\VsProject\\test-mvc-app\\obj\\",
+        "projectPath": "C:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\test-mvc-app.csproj",
+        "packagesPath": "C:\\Users\\vq006\\.nuget\\packages\\",
+        "outputPath": "C:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\GulPak\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\vq006\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -79,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
