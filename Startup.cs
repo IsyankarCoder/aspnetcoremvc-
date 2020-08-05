@@ -35,7 +35,7 @@ namespace test_mvc_app
                 optionsAction.UseSqlServer(Configuration.GetConnectionString("EmployeeDbConnection"));
             }, 12);
 
-            services.AddIdentity<IdentityUser, IdentityRole>(d =>
+            services.AddIdentity<ApplicationUser, IdentityRole>(d =>
             {
                 d.Password.RequiredUniqueChars = 10;
                 d.Password.RequiredUniqueChars = 3;

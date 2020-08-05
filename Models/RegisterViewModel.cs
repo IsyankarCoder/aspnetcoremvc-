@@ -22,4 +22,7 @@ public class RegisterViewModel{
     [Compare("PassWord",ErrorMessage="Password and Confirmation password doesnt match")]
     public string ConfirmPassWord{get;set;}
 
+
+    public string City{get;set;}
+
 }

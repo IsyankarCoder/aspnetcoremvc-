@@ -9,7 +9,7 @@ using test_mvc_app.Models;
 namespace test_mvc_app.Database
 {
     public class EfDbContext
-    :IdentityDbContext
+    :IdentityDbContext<ApplicationUser>
     {
       public EfDbContext(DbContextOptions<EfDbContext> options)
       :base(options){
