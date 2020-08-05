@@ -42,8 +42,7 @@ namespace test_mvc_app.Controllers
             if(user ==null){return Json(true);}
             else
             return Json($"Email {email} is already in use");
-        }
-     
+        }     
     
         [HttpGet]
         [AllowAnonymous]
@@ -52,8 +51,6 @@ namespace test_mvc_app.Controllers
             return View();
         }
 
-
-    
 
         [HttpPost]
         [AllowAnonymous]

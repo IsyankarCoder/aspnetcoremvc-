@@ -8,7 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 public class RegisterViewModel{
 
     [Required]
-    [EmailAddress]
+    [EmailAddress] 
+    [ValidEmailDomain(allowedDomain:"gmail.com",ErrorMessage="Email domain gmail olmalı bebişim...")]
     [Remote(action:"IsEmailInUse",controller:"Account")]
     public string Email {get;set;}
     
