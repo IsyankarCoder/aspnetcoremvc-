@@ -161,3 +161,5 @@ C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp3.1\te
 C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp3.1\Razor\Views\Home\SecurePage.cshtml.g.cs
 C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp3.1\Razor\Views\Administration\CreateRole.cshtml.g.cs
+C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp3.1\Razor\Views\Administration\ListRole.cshtml.g.cs
+C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditRole.cshtml.g.cs

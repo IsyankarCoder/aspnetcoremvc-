@@ -20566,6 +20566,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\Administration\\EditRole.cshtml",
+      "TargetPath": "Views\\Administration\\EditRole.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -20573,6 +20578,11 @@
     {
       "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\Administration\\ListRole.cshtml",
+      "TargetPath": "Views\\Administration\\ListRole.cshtml",
       "FileKind": "mvc"
     },
     {
