@@ -20579,6 +20579,11 @@
       "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\Shared\\NotFound.cshtml",
       "TargetPath": "Views\\Shared\\NotFound.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\Administration\\CreateRole.cshtml",
+      "TargetPath": "Views\\Administration\\CreateRole.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

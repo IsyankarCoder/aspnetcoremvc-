@@ -28,8 +28,8 @@ namespace test_mvc_app.Controllers
        
         public IActionResult Privacy()
         {
-            throw new Exception("hata var dostum");
-            Response.StatusCode=404;
+           // throw new Exception("hata var dostum");
+            Response.StatusCode=0b110010100;
             if(Response.StatusCode == 404)
              return View("EmployeeNotFound",404);
             return View();
