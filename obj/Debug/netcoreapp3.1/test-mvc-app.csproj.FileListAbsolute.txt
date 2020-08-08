@@ -163,3 +163,4 @@ C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp3.1\Ra
 C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp3.1\Razor\Views\Administration\CreateRole.cshtml.g.cs
 C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp3.1\Razor\Views\Administration\ListRole.cshtml.g.cs
 C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditRole.cshtml.g.cs
+C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditUsersInRole.cshtml.g.cs

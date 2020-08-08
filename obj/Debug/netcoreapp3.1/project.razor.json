@@ -20541,6 +20541,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\Administration\\EditUsersInRole.cshtml",
+      "TargetPath": "Views\\Administration\\EditUsersInRole.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
