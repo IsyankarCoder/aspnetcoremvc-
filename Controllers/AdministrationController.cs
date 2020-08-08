@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace test_mvc_app.Controllers
 {
+
+    [Authorize(Roles="Admin")]
+    [Authorize(Roles="User")]
     public class AdministrationController
 : Controller
     {
@@ -180,5 +183,7 @@ namespace test_mvc_app.Controllers
              return RedirectToAction("EditRole",new {Id=roleId });
 
         }
+
+       
     }
 }

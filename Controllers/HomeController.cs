@@ -10,7 +10,7 @@ using test_mvc_app.Models;
 
 namespace test_mvc_app.Controllers
 {
-      [Authorize]
+      
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -26,6 +26,7 @@ namespace test_mvc_app.Controllers
         }
 
        
+       [Authorize(Roles="User")]
         public IActionResult Privacy()
         {
            // throw new Exception("hata var dostum");
@@ -36,7 +37,7 @@ namespace test_mvc_app.Controllers
         }
 
       
-      [AllowAnonymous]
+       [Authorize(Roles="Admin")]
         public IActionResult SecurePage()
         {
             return View();
