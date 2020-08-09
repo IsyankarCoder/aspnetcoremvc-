@@ -30,7 +30,52 @@ namespace test_mvc_app.Controllers
             return View(users);
         }
 
-   
+        [HttpGet]
+        public async Task<IActionResult> EditUser(string id) {
+            var user = await this._userManager.FindByIdAsync(id);
+            if(user == null) {
+                ViewBag.ErrorMessage=$"User with Id = {id} cannot be found";
+                return View("NotFound");
+            } 
+
+            var userClaims = await this._userManager.GetClaimsAsync(user);
+            var userRoles = await this._userManager.GetRolesAsync(user);
+
+            var model = new EditUserViewModel{
+                Id= user.Id,
+                Email= user.Email,
+                UserName=user.UserName,
+                City = user.City,
+                Claims= userClaims.Select(c=>c.Value).ToList(),
+                Roles = userRoles.ToList()
+            };
+
+            return View(model);
+        }
+        [HttpPost]
+        public async Task<IActionResult> EditUser(EditUserViewModel model){
+            var user = await this._userManager.FindByIdAsync(model.Id);
+            if(user == null) {
+                ViewBag.ErrorMessage=$"User with Id = {model.Id} cannot be found";
+                return View("NotFound");
+            }else{
+
+                user.Email=model.Email;
+                user.UserName=model.UserName;
+                user.City =model.City;
+
+                var result = await this._userManager.UpdateAsync(user);
+                if(result.Succeeded){
+return RedirectToAction("ListUser");
+                }
+
+                foreach(var error in result.Errors){
+                    ModelState.AddModelError("",error.Description);
+                }
+            }
+
+            return View(model);
+        }
 
         [HttpGet]
         [AllowAnonymous]

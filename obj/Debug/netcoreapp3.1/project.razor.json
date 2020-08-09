@@ -20536,6 +20536,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\Administration\\EditUser.cshtml",
+      "TargetPath": "Views\\Administration\\EditUser.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\VsCodeProjects\\aspnetcoredenemeleri\\aspnetcoremvc-\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
