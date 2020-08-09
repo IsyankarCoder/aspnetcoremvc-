@@ -27,7 +27,12 @@
                         </li> 
                          <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="SecurePage">SecurePage</a>
-                        </li> 
+                        </li>
+                        @if(signInManager.IsSignedIn(User) && User.IsInRole("Admin")){
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Administration" asp-action="ListRole">ManageRole</a>
+                        </li>
+                        }
                     </ul>
                     @if (signInManager.IsSignedIn(User))
                     {

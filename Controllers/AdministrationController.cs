@@ -7,8 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace test_mvc_app.Controllers
 {
 
-    [Authorize(Roles="Admin")]
-    [Authorize(Roles="User")]
+    [Authorize(Roles="Admin,User")]
+    //[Authorize(Roles="User")]
     public class AdministrationController
 : Controller
     {
@@ -46,6 +46,7 @@ namespace test_mvc_app.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles="Admin")]
         public IActionResult ListRole()
         {
             var roles = _roleManager.Roles;
@@ -53,6 +54,7 @@ namespace test_mvc_app.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles="Admin")]
         public async Task<IActionResult> EditRole(string Id)
         {
             var role = await _roleManager.FindByIdAsync(Id);
