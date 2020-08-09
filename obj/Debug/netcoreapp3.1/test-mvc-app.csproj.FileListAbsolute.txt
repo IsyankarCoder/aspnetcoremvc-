@@ -165,3 +165,4 @@ C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp3.1\Ra
 C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditRole.cshtml.g.cs
 C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditUsersInRole.cshtml.g.cs
 C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
+C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp3.1\Razor\Views\Administration\ListUser.cshtml.g.cs

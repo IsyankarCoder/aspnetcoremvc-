@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -20,6 +21,16 @@ namespace test_mvc_app.Controllers
             this._roleManager = roleManager;
             this._userManager = userManager;
         }
+
+        [HttpGet]
+        [AllowAnonymous]
+        public IActionResult ListUser()
+        {
+            var users = this._userManager.Users.ToList();
+            return View(users);
+        }
+
+   
 
         [HttpGet]
         [AllowAnonymous]
