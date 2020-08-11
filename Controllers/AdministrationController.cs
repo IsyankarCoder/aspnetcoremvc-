@@ -77,6 +77,55 @@ return RedirectToAction("ListUser");
             return View(model);
         }
 
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteUser(string id){
+            var user = await this._userManager.FindByIdAsync(id);
+            if(user==null){
+ViewBag.ErrorMessage=$"User with Id = {id} cannot be found";
+return View("NotFound");
+            }
+            else{
+                var result = await this._userManager.DeleteAsync(user);
+                if(result.Succeeded){
+                    return RedirectToAction("ListUser");
+                }
+
+                foreach(var error in result.Errors){
+                    ModelState.AddModelError("",error.Description);
+                }
+
+                return View("ListUser");
+
+            }
+
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteRole(string id){
+            var role = await this._roleManager.FindByIdAsync(id);
+            if(role== null) {
+                ViewBag.ErrorMessage=$"User with Id = {id} cannot be found";
+                return View("NotFound");
+            }
+            else{
+                var result  = await this._roleManager.DeleteAsync(role);
+                if(result.Succeeded){
+                    return RedirectToAction("ListRole");
+                }
+                
+                foreach (var error in result.Errors){
+                    ModelState.AddModelError("",error.Description);
+                }
+              
+            }
+
+            return View("ListRole");
+        }
+
+
+
         [HttpGet]
         [AllowAnonymous]
         public IActionResult CreateRole()

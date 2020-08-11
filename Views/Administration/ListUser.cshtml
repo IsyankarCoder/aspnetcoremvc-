@@ -7,19 +7,27 @@
     @if(Model.Any()){
        <a asp-action ="Register" asp-controller="Account" class="btn btn-primary mb-3" style="width:auto">Add New User</a>
        foreach(var user in Model){
-           <div class="card mb-3">
-               <div class="card-header">
+        <div class="card mb-3">
+            <div class="card-header">
                    User Id : @user.Id
-               </div>
-               <div class="card-body">
+            </div>
+            <div class="card-body">
                    <h5 class="card-title">@user.UserName</h5>
-               </div>
-               <div class="card-footer">
-                <a asp-action="EditUser" asp-controller="Administration" asp-route-id="@user.Id" class="btn btn-primary">Edit</a>
-
-                   <a href="#" class="btn btn-danger">Delete</a>
-               </div>
-           </div>
+            </div>            
+            <div class="card-footer">
+            <form asp-action="DeleteUser" asp-controller="Administration" asp-route-id="@user.Id" method="POST">
+                <a asp-action="EditUser"  asp-controller="Administration" asp-route-id="@user.Id" class="btn btn-primary">Edit</a>            
+                <span style="display:none;" id="confirmDeleteSpan_@user.Id">
+                   <span>Are you sure you want to delete ? </span>
+                   <button type="submit" class="btn btn-danger" onclick="alert('55')">Yeshhh</button>
+                   <a href="#" class="btn btn-primary" onclick="confirmDelete('@user.Id',false)">Not</a>
+                </span>
+                <span id="deleteSpan_@user.Id">
+                   <a href="#" class="btn btn-danger" onclick="confirmDelete('@user.Id',true)">Sil</a>
+                </span>
+            </form>
+            </div>
+        </div>
        }
     }
     else
@@ -37,4 +45,9 @@
                 </a> 
             </div> 
         </div>
+    }
+
+    @section Scripts
+    {
+        <script src="~/js/customscript.js"></script>
     }
