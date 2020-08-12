@@ -9,7 +9,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/netcoreapp3.1/test-mvc-app.dll",
+            "program": "${workspaceFolder}/bin/Debug/netcoreapp5.0/test-mvc-app.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,
