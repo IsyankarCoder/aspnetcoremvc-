@@ -20,11 +20,11 @@
                 <a asp-action="EditUser"  asp-controller="Administration" asp-route-id="@user.Id" class="btn btn-primary">Düzenle</a>
                 <span id="confirmDeleteSpan_@user.Id" style="display:none">
                    <span>Are you sure you want to delete ? </span>
-                   <button type="button" class="btn btn-danger" onclick="alert('55');)">Yes</button>
+                   <input type="submit" class="btn btn-danger" onclick="alert('55')" value="Evet" />
                    <a href="#" class="btn btn-primary" onclick="confirmDelete('@user.Id',false)">Not</a>
                 </span>
                 <span id="deleteSpan_@user.Id">
-                   <a href="#" class="btn btn-danger" onclick="confirmDelete('@user.Id',true)">Sil</a>
+                   <a  class="btn btn-danger" onclick="confirmDelete('@user.Id',true)">Sil</a>
                 </span>
             </form>
             </div>
