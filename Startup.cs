@@ -79,8 +79,18 @@ namespace test_mvc_app
             app.UseAuthorization();
 
 
-            app.UseEndpoints(endpoints =>
+            app.UseEndpoints(endpoints =>            
             {
+                /*
+                 Administration
+                 
+                 */
+
+
+                endpoints.MapAreaControllerRoute("Admin","Admin", "Admin/{controller=Home}/{action=Index}/{id?}");
+
+                //endpoints.MapControllerRoute("areas", "{area:exists}/{controller=Administration}/{action=Index}/{id?}");
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");

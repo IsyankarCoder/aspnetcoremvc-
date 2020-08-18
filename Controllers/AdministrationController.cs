@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace test_mvc_app.Controllers
 {
@@ -15,11 +16,14 @@ namespace test_mvc_app.Controllers
     {
         private readonly RoleManager<IdentityRole> _roleManager;
         public readonly UserManager<ApplicationUser> _userManager;
-        public AdministrationController(RoleManager<IdentityRole> roleManager, UserManager<ApplicationUser> userManager
+
+        private readonly ILogger<AdministrationController> _logger;
+        public AdministrationController(RoleManager<IdentityRole> roleManager, UserManager<ApplicationUser> userManager,ILogger<AdministrationController> logger
         )
         {
             this._roleManager = roleManager;
             this._userManager = userManager;
+            this._logger= logger;
         }
 
         [HttpGet]
