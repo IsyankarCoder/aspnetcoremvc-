@@ -151,9 +151,12 @@ C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\bin\Debug\netcoreapp5.0\zh
 C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\bin\Debug\netcoreapp5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\bin\Debug\netcoreapp5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\bin\Debug\netcoreapp5.0\runtimes\win7-x86\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp5.0\test-mvc-app.csprojAssemblyReference.cache
 C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp5.0\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
 C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
 C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp5.0\Razor\Areas\Admin\Views\Sales\Index.cshtml.g.cs
 C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp5.0\Razor\Areas\Admin\Views\Administration\Index.cshtml.g.cs
+C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\bin\Debug\netcoreapp5.0\Areas\Admin\Content\package-lock.json
+C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\bin\Debug\netcoreapp5.0\Areas\Admin\Content\package.json
+C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\bin\Debug\netcoreapp5.0\Areas\Admin\Content\vendor\fontawesome-free\package.json
+C:\VsCodeProjects\aspnetcoredenemeleri\aspnetcoremvc-\obj\Debug\netcoreapp5.0\test-mvc-app.csprojAssemblyReference.cache

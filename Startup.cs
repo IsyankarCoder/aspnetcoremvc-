@@ -11,10 +11,16 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Identity;
+using System.IO;
+using System.IO.Pipes;
+using System.Text;
+
 
 using test_mvc_app.Database;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.Extensions.FileProviders;
+using Microsoft.AspNetCore.Http;
 
 namespace test_mvc_app
 {
@@ -73,6 +79,13 @@ namespace test_mvc_app
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
+            app.UseStaticFiles(new StaticFileOptions()
+            {
+                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "Areas\\Admin\\Content")),
+                RequestPath = new PathString("/Admin/Content")
+            });
+
 
             app.UseRouting();
             app.UseAuthentication();
